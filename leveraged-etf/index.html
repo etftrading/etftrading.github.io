@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leveraged ETF 2026: TQQQ, SOXL, UPRO + Decay Calculator</title>
+<meta name="description" content="How leveraged ETFs like TQQQ, UPRO and SOXL work, why they decay over time, current fees, the 2026 day-trading rule change, and a free decay calculator.">
+<link rel="canonical" href="https://etftrading.github.io/leveraged-etf/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0F0D" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ETF Trading">
+<meta property="og:title" content="Leveraged ETF: How TQQQ, UPRO and SOXL Really Work (2026)">
+<meta property="og:description" content="How leveraged ETFs like TQQQ, UPRO and SOXL work, why they decay over time, current fees, the 2026 day-trading rule change, and a free decay calculator.">
+<meta property="og:url" content="https://etftrading.github.io/leveraged-etf/">
+<meta property="og:image" content="https://etftrading.github.io/og/leveraged-etf.png">
+<meta property="og:image:alt" content="Leveraged ETF: How TQQQ, UPRO and SOXL Really Work (2026)">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Leveraged ETF: How TQQQ, UPRO and SOXL Really Work (2026)">
+<meta name="twitter:description" content="How leveraged ETFs like TQQQ, UPRO and SOXL work, why they decay over time, current fees, the 2026 day-trading rule change, and a free decay calculator.">
+<meta name="twitter:image" content="https://etftrading.github.io/og/leveraged-etf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap"></noscript>
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/app.js" defer></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://etftrading.github.io/leveraged-etf/#webpage",
+   "url": "https://etftrading.github.io/leveraged-etf/",
+   "name": "Leveraged ETF 2026: TQQQ, SOXL, UPRO + Decay Calculator",
+   "description": "How leveraged ETFs like TQQQ, UPRO and SOXL work, why they decay over time, current fees, the 2026 day-trading rule change, and a free decay calculator.",
+   "isPartOf": {
+    "@id": "https://etftrading.github.io/#website"
+   },
+   "breadcrumb": {
+    "@id": "https://etftrading.github.io/leveraged-etf/#breadcrumb"
+   },
+   "inLanguage": "en-US",
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://etftrading.github.io/og/leveraged-etf.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-10-09",
+   "dateModified": "2026-10-09"
+  },
+  {
+   "@type": "Article",
+   "@id": "https://etftrading.github.io/leveraged-etf/#article",
+   "headline": "Leveraged ETF",
+   "description": "How leveraged ETFs like TQQQ, UPRO and SOXL work, why they decay over time, current fees, the 2026 day-trading rule change, and a free decay calculator.",
+   "image": "https://etftrading.github.io/og/leveraged-etf.png",
+   "mainEntityOfPage": {
+    "@id": "https://etftrading.github.io/leveraged-etf/#webpage"
+   },
+   "author": {
+    "@id": "https://etftrading.github.io/#organization"
+   },
+   "publisher": {
+    "@id": "https://etftrading.github.io/#organization"
+   },
+   "datePublished": "2026-10-09",
+   "dateModified": "2026-10-09",
+   "inLanguage": "en-US",
+   "about": {
+    "@type": "Thing",
+    "name": "Leveraged exchange-traded fund"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://etftrading.github.io/leveraged-etf/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "ETF Trading",
+     "item": "https://etftrading.github.io/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Leveraged ETF",
+     "item": "https://etftrading.github.io/leveraged-etf/"
+    }
+   ]
+  },
+  {
+   "@type": "WebApplication",
+   "@id": "https://etftrading.github.io/leveraged-etf/#tool",
+   "name": "Leveraged ETF decay calculator",
+   "url": "https://etftrading.github.io/leveraged-etf/#calculator",
+   "applicationCategory": "FinanceApplication",
+   "operatingSystem": "Any",
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   }
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://etftrading.github.io/leveraged-etf/#funds",
+   "name": "Popular Leveraged ETFs Compared",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "TQQQ — ProShares UltraPro QQQ"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "SQQQ — ProShares UltraPro Short QQQ"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "UPRO — ProShares UltraPro S&P 500"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "SPXU — ProShares UltraPro Short S&P 500"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "SOXL — Direxion Daily Semiconductor Bull 3X"
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "name": "SOXS — Direxion Daily Semiconductor Bear 3X"
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "name": "NVDL — GraniteShares 2x Long NVDA Daily"
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "name": "TSLL — Direxion Daily TSLA Bull 2X"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://etftrading.github.io/leveraged-etf/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Can you hold TQQQ long term?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "TQQQ is designed for short holding periods. Because leverage resets daily, long-term compounding diverges from 3× the index — delivering outsized gains in sustained uptrends, but compounding losses during choppy or declining markets."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can a leveraged ETF go to zero?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A 3× fund would experience severe capital loss in a single-day index drop approaching 33%, and single-stock 2× or 3× funds move even faster. Most exchanges feature circuit breakers to halt trading during extreme market drops."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is volatility decay?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The loss leveraged funds suffer when prices swing up and down, because daily percentage changes compound unevenly. Try it in the calculator above."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are leveraged ETFs good for beginners?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Leveraged ETFs are specialized tactical instruments. They require active monitoring and disciplined risk management, making plain index ETFs like VOO or QQQ much more suitable for long-term core portfolios."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need $25,000 to day trade leveraged ETFs?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not anymore under FINRA's new rules, effective June 4, 2026 — but brokers can phase the change in until October 2027, so some may still apply the old limit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can UK investors buy TQQQ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Generally no — TQQQ lacks the Key Information Document UK rules require, and leveraged products are treated as complex. Some UK brokers offer European equivalents such as QQQ3 after an appropriateness check."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://etftrading.github.io/#organization",
+   "name": "ETF Trading",
+   "url": "https://etftrading.github.io/"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://etftrading.github.io/#website",
+   "url": "https://etftrading.github.io/",
+   "name": "ETF Trading",
+   "publisher": {
+    "@id": "https://etftrading.github.io/#organization"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="ETF Trading home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M8 21.5l5-5 4 3.5 7-8.5" fill="none" stroke="var(--bg)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="11.5" r="2" fill="var(--accent)"/></svg>
+      ETF Trading
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="../#what-is-etf-trading">Basics</a>
+      <a href="../#platforms">Platforms</a>
+      <a href="../#guides">ETF guides</a>
+      <a href="../#costs">Costs</a>
+      <a href="../#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="../ibkr/" rel="sponsored nofollow noopener" target="_blank">Trade Leveraged ETFs</a>
+  </div>
+</header>
+<main id="main">
+  <section class="hero hero-guide" aria-labelledby="h1">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="../">ETF Trading</a><span aria-hidden="true">/</span><span>Leveraged ETF</span></nav>
+      <h1 id="h1">Leveraged ETF</h1>
+      <p class="lead">A <strong>leveraged ETF</strong> aims to return 2× or 3× an index's move — for a single day. Because it resets daily, holding it longer can return far less than you expect, especially in choppy markets.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-xl" href="../ibkr/" rel="sponsored nofollow noopener" target="_blank">Trade Leveraged ETFs
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p class="hero-note">Opens Interactive Brokers. Regulated platform · <a href="../advertiser-disclosure/">Advertiser disclosure</a></p>
+      </div>
+      <div class="stats stats-3" role="list"><div class="stat" role="listitem"><b>3×</b><span>daily target of TQQQ, UPRO and SOXL</span></div><div class="stat" role="listitem"><b>0.82%</b><span>TQQQ net expense ratio</span></div><div class="stat" role="listitem"><b>1 day</b><span>the period the leverage applies to</span></div></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="meta-bar">
+      <span>By the <a href="../about/">ETF Trading editorial team</a></span>
+      <span>Updated <time datetime="2026-10-09">October 9, 2026</time></span>
+      <span>Data as of Jun 30–Oct 8, 2026 · reviewed monthly</span>
+    </div>
+  </div>
+
+  <div class="wrap guide-body">
+    <article class="prose-wide">
+      <section class="section" id="tool">
+        <h2>Leveraged ETF Decay Calculator</h2>
+        <p class="answer">Simulate a choppy market: the index rises and falls by the same percentage on alternating days. Watch how a 3× fund loses ground even when the index barely moves.</p>
+        <div class="calc" id="calculator">
+      <div class="calc-head"><h3>Leveraged ETF decay calculator</h3><span class="tag">Free tool</span></div>
+      <form class="calc-body" data-tool="decay" onsubmit="return false">
+      <div class="calc-inputs calc-inputs-1"><div class="field"><label for="in-move">Daily move (up, then down)</label><div class="input"><input id="in-move" data-in="move" inputmode="decimal" value="3"><span class="unit">%</span></div></div><div class="field"><label for="in-days">Trading days</label><div class="input"><input id="in-days" data-in="days" inputmode="decimal" value="20"><span class="unit">days</span></div></div><div class="field"><label for="in-lev">Leverage (use −1 for inverse)</label><div class="input"><input id="in-lev" data-in="lev" inputmode="decimal" value="3"><span class="unit">×</span></div></div></div><div class="calc-out" aria-live="polite"><div class="out-row"><span>Index return</span><b data-out="index">-0.90%</b></div><div class="out-row"><span>Leveraged ETF return</span><b data-out="lev">-7.81%</b></div><div class="out-row big"><span>Decay vs. the underlying</span><b data-out="gap">-6.91%</b></div></div>
+      </form>
+      <div class="calc-foot">Mathematical model of volatility drag over alternating daily moves. Real-world funds also incur expense ratios and financing costs.</div>
+    </div>
+      </section>
+
+      <section class="section" id="compare">
+        <h2>Popular Leveraged ETFs Compared</h2>
+        <p class="answer">The most traded leveraged ETFs track the Nasdaq-100, S&amp;P 500, semiconductors and single stocks. All charge far more than regular index funds.</p>
+        <div class="table-wrap"><table><thead><tr><th>Ticker</th><th>Fund</th><th>Daily target</th><th>Net expense ratio</th><th>Since</th></tr></thead><tbody>
+<tr><td><strong>TQQQ</strong></td><td>ProShares UltraPro QQQ</td><td>3× Nasdaq-100</td><td>0.82%</td><td>2010</td></tr>
+<tr><td><strong>SQQQ</strong></td><td>ProShares UltraPro Short QQQ</td><td>−3× Nasdaq-100</td><td>0.95%</td><td>2010</td></tr>
+<tr><td><strong>UPRO</strong></td><td>ProShares UltraPro S&amp;P 500</td><td>3× S&amp;P 500</td><td>0.89%</td><td>2009</td></tr>
+<tr><td><strong>SPXU</strong></td><td>ProShares UltraPro Short S&amp;P 500</td><td>−3× S&amp;P 500</td><td>0.90%</td><td>2009</td></tr>
+<tr><td><strong>SOXL</strong></td><td>Direxion Daily Semiconductor Bull 3X</td><td>3× semiconductors</td><td>0.75%</td><td>2010</td></tr>
+<tr><td><strong>SOXS</strong></td><td>Direxion Daily Semiconductor Bear 3X</td><td>−3× semiconductors</td><td>1.00%</td><td>2010</td></tr>
+<tr><td><strong>NVDL</strong></td><td>GraniteShares 2x Long NVDA Daily</td><td>2× Nvidia</td><td>1.06%</td><td>2022</td></tr>
+<tr><td><strong>TSLL</strong></td><td>Direxion Daily TSLA Bull 2X</td><td>2× Tesla</td><td>0.83%</td><td>2022</td></tr>
+</tbody></table></div>
+        <p class="table-note">ProShares figures Oct 8, 2026; Direxion fact sheets Jun 30, 2026 (net ratios include acquired fund fees); NVDL from its latest available prospectus (Mar 2025).</p>
+      </section>
+
+      <section class="section" id="how-they-work">
+        <h2>How Leveraged ETFs Work</h2>
+        <p class="answer">They use financial derivatives (swaps and futures) to amplify an index's daily return, rebalancing daily. Because of daily compounding, they are designed primarily for active intraday and short-term traders.</p>
+        <ul><li>Index up 10%, then down 10%: the index is down 1% — a 3× fund is down 9%.</li><li>In steady trends, leverage can beat 3×; in choppy markets it loses ground.</li><li>They can lose most of their value quickly — single-stock funds even within one day.</li></ul>
+      </section>
+      <section class="section" id="day-trading">
+        <h2>Day Trading Leveraged ETFs: The 2026 Rule Change</h2>
+        <p class="answer">FINRA's $25,000 pattern day trader rule was replaced by new intraday margin standards, effective June 4, 2026. Brokers may phase in the change until October 20, 2027, so check your broker's current rules.</p>
+        <ul><li>A $2,000 minimum still applies to margin accounts.</li><li>You don't need margin to buy leveraged ETFs — they can be bought in a cash account.</li><li>Trading Tesla funds? See our <a href="../tsla-etf/">TSLA ETF</a> comparison.</li></ul>
+      </section>
+
+      <section class="section" id="outside-us">
+        <h2>Leveraged ETF Outside the US</h2>
+        <p class="answer">UK and EU retail investors can't buy US leveraged ETFs such as TQQQ or UPRO, which lack a PRIIPs Key Information Document. Europe has its own 3× leveraged ETPs, such as WisdomTree QQQ3, but brokers may restrict them as complex products; Australians use Betashares geared funds such as GGUS.</p>
+        <div class="table-wrap"><table><thead><tr><th>Region</th><th>Fund</th><th>Ticker / exchange</th><th>Fee</th></tr></thead><tbody>
+<tr><td>UK &amp; EU</td><td>WisdomTree NASDAQ 100 3x Daily Leveraged</td><td><strong>QQQ3</strong> &middot; LSE</td><td>0.75%</td></tr>
+<tr><td>UK &amp; EU</td><td>WisdomTree S&amp;P 500 3x Daily Leveraged</td><td><strong>3USL</strong> &middot; LSE</td><td>0.75%</td></tr>
+<tr><td>Australia</td><td>Betashares Geared US Equity Fund (Hedged)</td><td><strong>GGUS</strong> &middot; ASX</td><td>0.80% + borrowing costs</td></tr>
+<tr><td>Australia</td><td>Betashares Geared Australian Equity Fund</td><td><strong>GEAR</strong> &middot; ASX</td><td>0.80% + borrowing costs</td></tr>
+</tbody></table></div>
+        <p class="table-note">Fees from issuer factsheets as of Oct 9, 2026. European leveraged ETPs reset daily like US funds. Betashares geared funds use variable gearing (roughly 2–2.9×), not a fixed daily multiple.</p>
+        
+      </section>
+      <section class="section" id="faq">
+        <h2>Leveraged ETF FAQ</h2>
+        <div class="faq">
+<details><summary><h3>Can you hold TQQQ long term?</h3></summary><div class="a"><p>TQQQ is designed for short holding periods. Because leverage resets daily, long-term compounding diverges from 3× the index — delivering outsized gains in sustained uptrends, but compounding losses during choppy or declining markets.</p></div></details>
+<details><summary><h3>Can a leveraged ETF go to zero?</h3></summary><div class="a"><p>A 3× fund would experience severe capital loss in a single-day index drop approaching 33%, and single-stock 2× or 3× funds move even faster. Most exchanges feature circuit breakers to halt trading during extreme market drops.</p></div></details>
+<details><summary><h3>What is volatility decay?</h3></summary><div class="a"><p>The loss leveraged funds suffer when prices swing up and down, because daily percentage changes compound unevenly. Try it in the calculator above.</p></div></details>
+<details><summary><h3>Are leveraged ETFs good for beginners?</h3></summary><div class="a"><p>Leveraged ETFs are specialized tactical instruments. They require active monitoring and disciplined risk management, making plain index ETFs like VOO or QQQ much more suitable for long-term core portfolios.</p></div></details>
+<details><summary><h3>Do I need $25,000 to day trade leveraged ETFs?</h3></summary><div class="a"><p>Not anymore under FINRA's new rules, effective June 4, 2026 — but brokers can phase the change in until October 2027, so some may still apply the old limit.</p></div></details>
+<details><summary><h3>Can UK investors buy TQQQ?</h3></summary><div class="a"><p>Generally no — TQQQ lacks the Key Information Document UK rules require, and leveraged products are treated as complex. Some UK brokers offer European equivalents such as QQQ3 after an appropriateness check.</p></div></details>
+        </div>
+      </section>
+
+      <section class="section" id="related">
+        <h2>Related ETF Trading Guides</h2>
+        <div class="ggrid ggrid-3">
+<div class="gcard"><span class="gcat">Trading</span><a class="gcard-link" href="../tsla-etf/">TSLA ETF</a><span>TSLL, TSLQ, TSLY and ETFs with the most Tesla</span></div>
+<div class="gcard"><span class="gcat">Index</span><a class="gcard-link" href="../qqq-etf/">QQQ ETF</a><span>QQQ vs QQQM vs TQQQ, Nasdaq-100 returns and fees</span></div>
+<div class="gcard"><span class="gcat">Index</span><a class="gcard-link" href="../sp500-etf/">S&amp;P 500 ETF</a><span>VOO vs SPY vs IVV vs SPYM, with a 30-year fee calculator</span></div>
+        </div>
+        <p class="next">New to ETFs? Start with the complete <a href="../">ETF trading guide →</a></p>
+      </section>
+
+      <section class="section" id="sources">
+        <h2 class="h-sm">Sources</h2>
+        <ul class="sources">
+<li><a href="https://www.proshares.com/our-etfs/leveraged-and-inverse/tqqq" rel="noopener" target="_blank">ProShares — TQQQ</a></li>
+<li><a href="https://www.proshares.com/our-etfs/leveraged-and-inverse/upro" rel="noopener" target="_blank">ProShares — UPRO</a></li>
+<li><a href="https://www.direxion.com/uploads/SOXL-SOXS-Fact-Sheet.pdf" rel="noopener" target="_blank">Direxion — SOXL/SOXS fact sheet</a></li>
+<li><a href="https://www.finra.org/rules-guidance/notices/09-31" rel="noopener" target="_blank">FINRA — Regulatory Notice 09-31, leveraged and inverse ETFs</a></li>
+<li><a href="https://www.finra.org/rules-guidance/notices/26-10" rel="noopener" target="_blank">FINRA — Regulatory Notice 26-10 (intraday margin)</a></li>
+<li><a href="https://www.finra.org/investors/insights/intraday-margin-requirements" rel="noopener" target="_blank">FINRA — Intraday margin requirements for investors</a></li>
+<li><a href="https://www.wisdomtree.eu/en-ie/etps/equities/wisdomtree-nasdaq-100-3x-daily-leveraged" rel="noopener" target="_blank">WisdomTree — NASDAQ 100 3x Daily Leveraged (QQQ3)</a></li>
+<li><a href="https://www.wisdomtree.com/lu/products/equities/wisdomtree-sp-500-3x-daily-leveraged" rel="noopener" target="_blank">WisdomTree — S&amp;P 500 3x Daily Leveraged (3USL)</a></li>
+<li><a href="https://www.betashares.com.au/fund/geared-us-fund-betashares/" rel="noopener" target="_blank">Betashares — GGUS</a></li>
+        </ul>
+      </section>
+    </article>
+  </div>
+
+  <section class="final-cta">
+    <div class="wrap">
+      <h2>Trade Leveraged ETFs</h2>
+      <p>Access 2× and 3× ETFs with professional tools — and manage the risk daily.</p>
+      <a class="btn btn-primary btn-xl" href="../ibkr/" rel="sponsored nofollow noopener" target="_blank">Trade Leveraged ETFs
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <p class="hero-note">Capital at risk. Compare features, fees and availability before trading.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="../" aria-label="ETF Trading home">
+          <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M8 21.5l5-5 4 3.5 7-8.5" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="11.5" r="2" fill="var(--accent)"/></svg>
+          ETF Trading
+        </a>
+        <p>Independent, plain-English guides to <a href="../">ETF trading</a> for investors in the US, UK, Europe and Australia.</p>
+      </div>
+      <nav class="footer-col" aria-label="ETF guides">
+        <p class="footer-h">ETF guides</p>
+        <ul>
+          <li><a href="../gold-etf-trading/">Gold ETF Trading</a></li>
+          <li><a href="../silver-etf/">Silver ETF</a></li>
+          <li><a href="../bitcoin-etf/">Bitcoin ETF</a></li>
+          <li><a href="../xrp-etf/">XRP ETF</a></li>
+          <li><a href="../sp500-etf/">S&amp;P 500 ETF</a></li>
+          <li><a href="../qqq-etf/">QQQ ETF</a></li>
+          <li><a href="../dividend-etf/">Dividend ETF</a></li>
+          <li><a href="../treasury-etf/">Treasury ETF</a></li>
+          <li><a href="../leveraged-etf/">Leveraged ETF</a></li>
+          <li><a href="../tsla-etf/">TSLA ETF</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Company">
+        <p class="footer-h">Company</p>
+        <ul>
+          <li><a href="../about/">About &amp; methodology</a></li>
+          <li><a href="../advertiser-disclosure/">Advertiser disclosure</a></li>
+          <li><a href="../disclaimer/">Disclaimer</a></li>
+          <li><a href="../privacy-policy/">Privacy policy</a></li>
+          <li><a href="../terms/">Terms of use</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="disclaimer">
+      <p><strong>Editorial Notice:</strong> ETF Trading provides independent market research, comparative tools and educational guides. Content is for informational purposes and does not constitute personalized financial, tax or investment advice.</p>
+      <p>Securities trading involves capital risk. Some links are partner links that may generate compensation at no cost to you. Review our <a href="../advertiser-disclosure/">advertiser disclosure</a> and <a href="../disclaimer/">disclaimer</a> for full details.</p>
+      <p>&copy; 2026 ETF Trading. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

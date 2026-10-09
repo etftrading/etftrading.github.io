@@ -1,0 +1,11 @@
+{
+  "name": "ETF Trading",
+  "short_name": "ETF Trading",
+  "icons": [
+    {"src": "/favicon-48.png", "sizes": "48x48", "type": "image/png"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}
+  ],
+  "theme_color": "#0B7A4B",
+  "background_color": "#FAFAF7",
+  "display": "browser"
+}

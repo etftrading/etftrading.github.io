@@ -1,0 +1,25 @@
+# ETF Trading
+
+> Independent, plain-English guide to ETF trading for investors worldwide (US, UK, EU, Australia): what ETFs are, how to buy and sell them, real costs, platforms, strategies, taxes and risks.
+
+## Main guide
+- [ETF Trading — complete guide](https://etftrading.github.io/): definition, 5-step start, platform comparison, costs and fee calculator, ETF types, strategies, returns, trading hours and order types, risks, taxes, popular ETFs, FAQ.
+
+## ETF guides (each with a free calculator)
+- [Gold ETF Trading](https://etftrading.github.io/gold-etf-trading/): GLD vs IAU vs GLDM by fees, plus a cost calculator
+- [Silver ETF](https://etftrading.github.io/silver-etf/): SLV vs SIVR vs PSLV by fees, plus a cost calculator
+- [Bitcoin ETF](https://etftrading.github.io/bitcoin-etf/): IBIT, FBTC, GBTC fees + ETF vs real bitcoin calculator
+- [XRP ETF](https://etftrading.github.io/xrp-etf/): All 5 spot XRP ETFs + Solana staking ETFs compared
+- [S&P 500 ETF](https://etftrading.github.io/sp500-etf/): VOO vs SPY vs IVV vs SPYM, with a 30-year fee calculator
+- [QQQ ETF](https://etftrading.github.io/qqq-etf/): QQQ vs QQQM vs TQQQ, Nasdaq-100 returns and fees
+- [Dividend ETF](https://etftrading.github.io/dividend-etf/): SCHD, VYM, JEPI yields + monthly income calculator
+- [Treasury ETF](https://etftrading.github.io/treasury-etf/): SGOV, BIL, TLT yields + after-tax savings comparison
+- [Leveraged ETF](https://etftrading.github.io/leveraged-etf/): TQQQ, UPRO, SOXL explained + volatility decay calculator
+- [TSLA ETF](https://etftrading.github.io/tsla-etf/): TSLL, TSLQ, TSLY and ETFs with the most Tesla
+
+## About and policies
+- [About & methodology](https://etftrading.github.io/about/)
+- [Advertiser disclosure](https://etftrading.github.io/advertiser-disclosure/)
+- [Disclaimer](https://etftrading.github.io/disclaimer/)
+- [Privacy policy](https://etftrading.github.io/privacy-policy/)
+- [Terms of use](https://etftrading.github.io/terms/)

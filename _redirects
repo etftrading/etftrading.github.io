@@ -1,0 +1,10 @@
+# Partner links (Netlify / Cloudflare Pages syntax). Replace targets with your approved affiliate URLs.
+# Forced "!" rules redirect at server level; each /<partner>/index.html stays as a fallback redirect page.
+/etoro       https://www.etoro.com/               302!
+/etoro/      https://www.etoro.com/               302!
+/kraken      https://www.kraken.com/              302!
+/kraken/     https://www.kraken.com/              302!
+/ibkr        https://www.interactivebrokers.com/  302!
+/ibkr/       https://www.interactivebrokers.com/  302!
+/webull      https://www.webull.com/              302!
+/webull/     https://www.webull.com/              302!
